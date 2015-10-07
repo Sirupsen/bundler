@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
 require "bundler/version"
 
 Gem::Specification.new do |s|
-  s.name        = "bundler"
+  s.name        = "shopify-bundler"
   s.version     = Bundler::VERSION
   s.licenses    = ["MIT"]
   s.authors     = ["André Arko", "Terence Lee", "Carl Lerche", "Yehuda Katz"]
